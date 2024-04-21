@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#head-up {
+  width: 150;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+#head-up .head-words {
+  color: #50535b;
+  margin-right: 2rem;
+  word-spacing: 14px;
+}
+#head-up .head-logos {
+  margin-right: 2rem;
+}
+#head-up .head-button {
+  color: #f6861f;
+  border: 2px solid #f6861f;
+  border-radius: 10px;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+  margin-left: 2px;
+  background-color: white;
+  transition: all 0.3s;
+}
+#head-up .head-button:hover {
+  background-color: #f6861f;
+  color: white;
+}
+#head-up .flag {
+  padding: 0.3rem 1rem;
+  margin-left: 500px;
+}
+
+#head-down {
+  width: 150;
+  height: 50px;
+  margin-left: 45px;
+  margin-top: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.kataloq {
+  margin-left: 30px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1rem 1.4rem 1rem;
+  cursor: pointer;
+  background-color: #40b659;
+  transition: all 0.3s;
+  font-size: 1.1rem;
+}/*# sourceMappingURL=style.css.map */
